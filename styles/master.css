@@ -34,7 +34,7 @@ aside {
 }
 
 aside a {
-    background-color: var(--depth1);
+    background-color: var(--depth2);
     font-size: 1.2rem;
     padding: 30px 5px;
     margin: 2px 0;
@@ -71,7 +71,7 @@ section {
 }
 
 .section-content {
-    background-color: var(--depth1);
+    background-color: var(--depth2);
     backdrop-filter: blur(5px);
     padding: 10px 0;
 }
@@ -80,7 +80,7 @@ section {
 
 #accessibility-nav {
     text-align: right;
-    background-color: var(--color1);
+    background-color: var(--color3);
 }
 
 #accessibility-nav button {
@@ -183,7 +183,7 @@ header {
 }
 
 .project:hover {
-    background-color: var(--depth1);
+    background-color: var(--depth2);
     box-shadow: 0 0 10px var(--glow);
 }
 
