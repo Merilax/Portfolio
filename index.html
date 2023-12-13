@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Daniel Zhuravlev</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" id="theme-css" href="">
+    <link rel="stylesheet" href="styles/master.css">
+    <script src="./scripts/theme-toggle.js"></script>
+</head>
+
+<body>
+
+    <aside>
+        <img class="aside-picture" src="media/MXlogo.png" alt="My logo">
+        <a href="#intro">Sobre mí</a>
+        <a href="#skills-title">Skills</a>
+        <a href="#projects-title">Proyectos</a>
+        <a href="#contacts-title">Contactos</a>
+    </aside>
+
+    <main>
+        <nav class="container-fluid" id="accessibility-nav">
+            <button id="theme-btn"><img src="media/icons/bulb.svg" alt="Cambiar tema"></button>
+        </nav>
+
+        <header class="container-fluid" id="intro">
+            <img class="picture" src="media/MXlogo.png" alt="My logo">
+            <div class="inline-block header-text">
+                <h1>Daniel Zhuravlev</h1>
+                <p>Estudiante de Desarrollo de Aplicaciones Web</p>
+                <p>IES Leonardo Da Vinci</p>
+            </div>
+        </header>
+
+        <section>
+            <h1 class="center section-title container-fluid" id="skills-title">Skills</h1>
+            <div class="section-content container-fluid" id="skills">
+                <div id="skill-grid">
+                    <div class="row">
+                        <div class="col"><img src="media/skills/css.png" alt="CSS"></div>
+                        <div class="col"><img src="media/skills/bootstrap.png" alt="BootStrap"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="media/skills/js.png" alt="JavaScript"></div>
+                        <div class="col"><img src="media/skills/nodejs.png" alt="NodeJS"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="media/skills/php.png" alt="PHP"></div>
+                        <div class="col"><img src="media/skills/java.png" alt="Java"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 class="center section-title container-fluid" id="projects-title">Proyectos</h1>
+            <div class="section-content container-fluid" id="projects">
+                <a href="https://trixy.onrender.com/" class="project inline-block container">
+                    <img class="project-picture" src="media/projects/trixy.png" alt="Project picture">
+                    <div class="inline-block project-text">
+                        <h2>Trixy</h2>
+                        <p>Bot de Discord polivalente.</p>
+                    </div>
+                </a>
+                <a href="https://merilax.github.io/KyraWeb/" class="project inline-block container">
+                    <img class="project-picture" src="media/projects/kyra.png" alt="Project picture">
+                    <div class="inline-block project-text">
+                        <h2>KyraWeb</h2>
+                        <p>Galería de imágenes para el juego Break Arts 2.</p>
+                    </div>
+                </a>
+                <a href="https://github.com/Merilax/php-events" class="project inline-block container">
+                    <img class="project-picture" src="media/projects/php.png" alt="Project picture">
+                    <div class="inline-block project-text">
+                        <h2>Venta de entradas</h2>
+                        <p>Página en PHP para la venta de entradas a eventos misceláneos.</p>
+                    </div>
+                </a>
+                <a href="https://github.com/Merilax/php-database-management" class="project inline-block container">
+                    <img class="project-picture" src="media/projects/php.png" alt="Project picture">
+                    <div class="inline-block project-text">
+                        <h2>Administración de Empleados</h2>
+                        <p>Mi primer proyecto de PHP que permite interactuar con una base de datos para administrar
+                            departamentos y empelados.</p>
+                    </div>
+                </a>
+                <a href="https://merilax.github.io/JS-Jigsaw/" class="project inline-block container">
+                    <img class="project-picture" src="media/projects/puzzle_piece.png" alt="Project picture">
+                    <div class="inline-block project-text">
+                        <h2>JigsawJS</h2>
+                        <p>Puzzle hecho en JavaScript con guardado automático.</p>
+                    </div>
+                </a>
+                <a href="https://merilax.github.io/Solitaire/" class="project inline-block container">
+                    <img class="project-picture" src="media/projects/solitaire.png" alt="Project picture">
+                    <div class="inline-block project-text">
+                        <h2>SolitaireJS</h2>
+                        <p>Solitario hecho en JavaScript con funcionalidad completa.</p>
+                    </div>
+                </a>
+                <a href="https://merilax.github.io/BingoJS/" class="project inline-block container">
+                    <img class="project-picture" src="media/projects/bingo.png" alt="Project picture">
+                    <div class="inline-block project-text">
+                        <h2>BingoJS</h2>
+                        <p>Mi primer proyecto de JavaScript, simple y funcional.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <h1 class="center section-title container-fluid" id="contacts-title">Contacto</h1>
+
+            <div class="section-content center container-fluid" id="contacts">
+                <br>
+                <p>Puedes contactar conmigo envíando este formulario y te responderé lo antes posible.</p><br>
+                <form action="" method="post">
+                    <label for="inputName">Nombre</label><br>
+                    <input type="text" name="inputName" id="inputName" required><br>
+
+                    <label for="inputEmail">Email</label><br>
+                    <input type="email" name="inputEmail" id="inputEmail" required><br>
+
+                    <label for="inputMsg">Mensaje</label><br>
+                    <textarea name="inputMsg" id="inputMsg" cols="30" rows="10" required></textarea><br>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+
+        <footer class="container-fluid">
+            <span>Daniel Zhuravlev © 2023</span>
+        </footer>
+    </main>
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

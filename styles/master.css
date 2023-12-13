@@ -1,0 +1,264 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--txt) !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg);
+    background-image: url("https://img.itch.zone/aW1hZ2UvMjExNzU1NS8xMjQ2OTMxOC5naWY=/original/9%2BOIry.gif");
+    background-size: cover;
+    background-blend-mode: hard-light;
+    background-attachment: fixed;
+}
+
+/* ASIDE */
+
+aside {
+    background-color: var(--color2);
+    width: 150px;
+    height: 100vh;
+
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+aside a {
+    background-color: var(--depth1);
+    font-size: 1.2rem;
+    padding: 30px 5px;
+    margin: 2px 0;
+    text-align: center;
+    transition: all 300ms;
+}
+
+aside a:hover {
+    background-color: var(--color1);
+    box-shadow: 0 0 10px var(--glow);
+}
+
+.aside-picture {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* MAIN */
+
+main {
+    margin-left: 150px;
+}
+
+section {
+    margin: 100px 0;
+}
+
+.section-title {
+    background-color: var(--color2);
+    margin: 0;
+    padding: 10px 0;
+}
+
+.section-content {
+    background-color: var(--depth1);
+    backdrop-filter: blur(5px);
+    padding: 10px 0;
+}
+
+/* ACCESSIBILITY NAV */
+
+#accessibility-nav {
+    text-align: right;
+    background-color: var(--color1);
+}
+
+#accessibility-nav button {
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    border: 0;
+}
+
+#accessibility-nav button img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+/* INTRO */
+
+header {
+    background-color: var(--depth2);
+    box-shadow: 0 0 10px var(--glow);
+    min-height: 40vh;
+    padding: 0 5%;
+    margin-bottom: 50px;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.header-text {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-flow: column nowrap;
+    }
+}
+
+.picture {
+    object-fit: cover;
+    width: 30vh;
+    height: 30vh;
+}
+
+/* SKILLS */
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skill {
+    min-height: 10vh;
+    width: var(--sm);
+    margin: 10px 10px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    transition: all 300ms;
+}
+
+#skill-grid img {
+    background-color: var(--color6);
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+/* PROJECTS */
+
+#projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project {
+    min-height: 10vh;
+    width: var(--sm);
+    margin: 10px 10px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    transition: all 300ms;
+}
+
+.project:hover {
+    background-color: var(--depth1);
+    box-shadow: 0 0 10px var(--glow);
+}
+
+.project-picture {
+    object-fit: cover;
+    height: 15vh;
+    width: 15vh;
+}
+
+.project-text {
+    margin: 8px 5px 0 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .project {
+        flex-flow: column nowrap;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .project {
+        max-width: 100%;
+    }
+}
+
+/* CONTACTS */
+
+form {
+    background-color: var(--depth2);
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50vw;
+    min-width: var(--md);
+}
+
+label {
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    background-color: var(--color2);
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+    border: 0;
+    transition: all 300ms;
+}
+
+input:hover,
+input:active,
+textarea:hover,
+textarea:active {
+    box-shadow: 0 0 10px var(--glow);
+}
+
+input[type="submit"] {
+    width: 25%;
+    background-color: var(--color4);
+    transition: all 300ms;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--color1);
+    color: var(--invtxt);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--color1);
+    box-shadow: 0 0 10px var(--glow);
+    margin-top: 50px;
+    padding: 20px 0;
+
+    text-align: center;
+}

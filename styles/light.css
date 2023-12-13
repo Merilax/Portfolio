@@ -1,0 +1,28 @@
+:root {
+    --bg: #fff;
+    --txt: #111;
+    --invtxt: #eee;
+
+    --depth1: #fff2;
+    --depth2: #fff4;
+    --depth3: #fff6;
+    --depth4: #fff8;
+    --depth5: #fffa;
+    --depth6: #fffc;
+
+    --color1: #9bf;
+    --color2: #7ad;
+    --color3: #68b;
+    --color4: #569;
+    --color5: #447;
+    --color6: #335;
+    --glow: #111;
+
+    --xxs: 0;
+    --xs: 350px;
+    --sm: 576px;
+    --md: 768px;
+    --lg: 992px;
+    --xl: 1200px;
+    --xxl: 1400px;
+}
